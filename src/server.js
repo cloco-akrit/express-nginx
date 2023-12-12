@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("hello to all\nfrom server 1");
+  res.send("hello to all\nfrom server 2");
 });
 
 app.listen("8000", () => {
